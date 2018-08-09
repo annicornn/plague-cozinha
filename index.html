@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>teste</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="site-cols-wrapper">
+      <div class="site-left-col">
+        <div class="site-left-col-inner">
+          <h1>Usuários</h1>
+          <ul id="users">
+        </div>
+      </div>
+      <div class="site-right-col">
+        <div class="site-right-col-inner">
+            <button id="init" style="background-color: rgb(121, 184, 121)">Init</button>
+            <button id="fail" style="background-color: rgb(228, 133, 133)">Fail</button>
+            <h1>Fase Atual</h1>
+          <ul id="todas-fases">                      
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+  <div class="container2">
+    <div class="log">
+      <h2>FASE ATUAL</h2>
+      <p><h4 id="faseLog"></p>    
+    </div>
+    <div class="log">
+      <h2>USUÁRIOS LOGADOS</h2>
+      <p><h4 id="usersLog"></p>
+    </div>
+    <div class="log">
+      <h2>INTERACAO</h2>
+      <p><h4 id="interacaoLog"></p>
+    </div> 
+  </div>
+  <script src="jquery.slim.min.js"></script>
+  <script src="jquery.min.js"></script>
+  <script src="socket.io.js"></script>
+  <script src="main.js" type="text/javascript"></script>
+</body>
+
+</html>
